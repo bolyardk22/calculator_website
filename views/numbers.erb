@@ -1,0 +1,8 @@
+You chose <%=radio_buttons%>. What two numbers would you like to use?
+
+<form method = "post" action = "/numbers">
+	<input type = "numbers" name = "num1">
+	<input type = "numbers" name = "num2">
+	<input type = "hidden" name = "radio_buttons" value = <%=radio_buttons%>>
+	<input type = "submit">
+</form>

@@ -1,0 +1,8 @@
+You chose <%=radio_buttons%> using <%=num1%> and <%=num2%>. The answer is <%=calculation%>.
+
+<form method = "post" action = "/numbers">
+	<input type = "hidden" name = "num1" value = <%=num1%>>
+	<input type = "hidden" name = "num2" value = <%=num2%>>
+	<input type = "hidden" name = "calculation" value = <%=calculation%>>
+	<input type = "hidden" name = "radio_buttons" value = <%=radio_buttons%>>
+</form>
